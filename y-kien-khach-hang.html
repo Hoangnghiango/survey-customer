@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://james.codegyccm.vn/mod/a" method="get">
+        <h1>MARKET RESEARCH SURVEY</h1>
+        <h3>Please take a few moment to complete the satisfaction survey</h3>
+        <hr>
+        <label for="age">What is your age range?</label> <br>
+        <select name="age" id="">
+            <option value="less16">1 - 16</option>
+            <option value="greater16less20">16 - 20</option>
+            <option value="greater20less35">20 - 30</option>
+            <option value="greater35less50">35 - 50</option>
+            <option value="greater50less65">50 - 65</option>
+            <option value="greater65less70">65 - 70</option>
+        </select> <br><br><br>
+
+        <label for="income">What is your yearly income range?</label> <br>
+        <select name="income" id="">
+            <option value="500000">0 - 500000</option>
+            <option value="1000000">500000 - 1000000</option>
+            <option value="2000000">1000000 - 2000000</option>
+            <option value="3000000">2000000 - 3000000</option>
+        </select> <br><br><br>
+
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender" value="male"> <label for="gender">Male</label>
+        <input type="radio" name="gender" value="female"><label for="gender">Female</label>
+
+        <br><br><br> 
+
+        <label for="product">Which of the folowing products have your purchased in last 2 months. Please check all that
+            apply</label> <br><br> 
+        <input type="checkbox" name="product1"> <label for="product">Product 1</label> <br><br>
+
+        <input type="checkbox" name="product2"> <label for="product">Product 2</label> <br><br>
+        <input type="checkbox" name="product3"> <label for="product">Product 3</label> <br><br>
+
+
+        <label for="often">how often you use our new product ?</label> <br><br>
+        <input type="checkbox" name="product" value="Daily"> <label for="product">Daily</label> <br><br>
+
+        <input type="checkbox" name="product" value="Weekly"> <label for="product">Weekly</label> <br><br>
+        <input type="checkbox" name="product" value="Monthly"> <label for="product">Monthly</label> <br><br>
+
+
+        <label for="">What would you pay for new product?</label> <br><br>
+        $ <input type="number" name="dollar"> <sub>dollars</sub> . <input type="number" name="cents"> <sub>cents</sub>
+        <br><br><br>
+        <label for="feature">What feature would do you like to see in the new product?</label> <br>
+        <input type="text" name="feature" value="Nhap vao day" style="width: 50%; height: 200px;"> <br><br><br>
+
+        <label for="">Please rate your level of agreements of the following statements</label> <br><br>
+
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            <tr>
+                <td>Our product are priced fairly</td>
+                <td ><input type="radio" name="rate_1" value="1">
+                    <br>
+                    <label for="">1</label>
+                </td>
+                <td><input type="radio" name="rate_1" value="2">
+                    <br>
+                    <label for="">2</label>
+                </td>
+                <td><input type="radio" name="rate_1" value="3">
+                    <br>
+                    <label for="">3</label>
+                </td>
+                <td><input type="radio" name="rate_1" value="4">
+                    <br>
+                    <label for="">4</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Our product are hign quality</td>
+                <td style="align-content: center;"><input type="radio" name="rate_2" value="1">
+                    <br>
+                    <label for="">1</label>
+                </td>
+                <td><input type="radio" name="rate_2" value="2">
+                    <br>
+                    <label for="">2</label>
+                </td>
+                <td><input type="radio" name="rate_2" value="3">
+                    <br>
+                    <label for="">3</label>
+                </td>
+                <td><input type="radio" name="rate_2" value="4">
+                    <br>
+                    <label for="">4</label>
+                </td>
+            </tr>
+            <tr>
+                <td>You woukd to reccomend our product to a friend or coworker</td>
+                <td><input type="radio" name="rate_3" value="1">
+                    <br>
+                    <label for="">1</label>
+                </td>
+                <td><input type="radio" name="rate_3" value="2">
+                    <br>
+                    <label for="">2</label>
+                </td>
+                <td><input type="radio" name="rate_3" value="3">
+                    <br>
+                    <label for="">3</label>
+                </td>
+                <td><input type="radio" name="rate_3" value="4">
+                    <br>
+                    <label for="">4</label>
+                </td>
+            </tr>
+        </table> 
+         <br>
+        <input type="submit" value="Submit">
+
+
+
+
+
+    </form>
+</body>
+
+</html>
